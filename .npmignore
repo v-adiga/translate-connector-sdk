@@ -1,0 +1,24 @@
+# Source files (consumers don't need these)
+src/
+tsconfig.json
+
+# Development files
+node_modules/
+*.log
+
+# Test files
+test/
+tests/
+*.test.ts
+*.spec.ts
+
+# Git files
+.git/
+.gitignore
+
+# IDE files
+.vscode/
+.idea/
+
+# CI/CD
+.github/

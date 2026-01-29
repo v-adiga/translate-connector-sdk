@@ -1,0 +1,37 @@
+{
+  "name": "translate-connector-sdk",
+  "version": "1.0.0",
+  "author": "Adobe",
+  "license": "MIT",
+  "description": "Type definitions for the Translate Connector SDK",
+  "engines": {
+    "node": ">=20.0.0",
+    "npm": ">=9.0.0"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/v-adiga/translate-connector-sdk.git"
+  },
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf dist",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "adobe",
+    "translate",
+    "connector",
+    "sdk",
+    "typescript",
+    "typings"
+  ],
+  "dependencies": {
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@types/node": "^25.1.0",
+    "typescript": "^5.9.3"
+  }
+}
