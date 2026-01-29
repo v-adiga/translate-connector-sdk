@@ -1,11 +1,11 @@
-# @adobe/translate-connector-sdk
+# @v-adiga/translate-connector-sdk
 
 This package exports type definitions to build translate connectors.
 
 ## Installation
 
 ```bash
-npm install @adobe/translate-connector-sdk
+npm install @v-adiga/translate-connector-sdk
 ```
 
 ## Usage
@@ -21,7 +21,7 @@ import {
   Locale,
   LocaleCode,
   LocalesResponse
-} from '@adobe/translate-connector-sdk';
+} from '@v-adiga/translate-connector-sdk';
 
 // Example: Type your translation request
 const request: TranslationRequest = {
