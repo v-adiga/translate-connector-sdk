@@ -21,6 +21,7 @@ jobs:
         with:
           node-version: '20'
           registry-url: 'https://registry.npmjs.org'
+          scope: '@v-adiga'
 
       - name: Install Dependencies
         run: npm ci
