@@ -31,6 +31,3 @@ jobs:
 
       - name: Publish to npm
         run: npm publish --provenance --access public
-        env:
-          # GITHUB_TOKEN is automatically created by GitHub for the repository
-          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
