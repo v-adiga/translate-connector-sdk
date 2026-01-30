@@ -1,6 +1,6 @@
 {
   "name": "@v-adiga/translate-connector-sdk",
-  "version": "1.0.2",
+  "version": "1.0.0",
   "author": "Adobe",
   "license": "Apache-2.0",
   "description": "Type definitions for the Translate Connector SDK",
