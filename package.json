@@ -2,7 +2,7 @@
   "name": "@v-adiga/translate-connector-sdk",
   "version": "1.0.2",
   "author": "Adobe",
-  "license": "MIT",
+  "license": "Apache-2.0",
   "description": "Type definitions for the Translate Connector SDK",
   "engines": {
     "node": ">=20.0.0",
